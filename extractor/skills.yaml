@@ -1,0 +1,171 @@
+categories:
+  programming_languages:
+    - name: Python
+      aliases: [python]
+    - name: R
+      # Case-sensitive match handled in matcher — do NOT add re.IGNORECASE for this
+      aliases: ["\\bR\\b"]
+    - name: Java
+      aliases: [java]
+    - name: JavaScript
+      aliases: [javascript, "\\bjs\\b", node.js, nodejs]
+    - name: TypeScript
+      aliases: [typescript, "\\bts\\b"]
+    - name: "C++"
+      aliases: ["c\\+\\+", "\\bcpp\\b"]
+    - name: SQL
+      aliases: ["\\bsql\\b"]
+    - name: MATLAB
+      aliases: [matlab]
+    - name: Bash/Shell
+      aliases: [bash, "shell scripting", "shell script"]
+    - name: Go
+      aliases: [golang]
+    - name: Scala
+      aliases: [scala]
+    - name: Julia
+      aliases: [julia]
+
+  data_tools:
+    - name: pandas
+      aliases: [pandas]
+    - name: NumPy
+      aliases: [numpy]
+    - name: Spark
+      aliases: ["apache spark", pyspark, "\\bspark\\b"]
+    - name: Tableau
+      aliases: [tableau]
+    - name: Power BI
+      aliases: ["power bi", powerbi]
+    - name: Excel
+      aliases: ["\\bexcel\\b", "microsoft excel"]
+    - name: dbt
+      aliases: ["\\bdbt\\b", "data build tool"]
+    - name: Airflow
+      aliases: [airflow, "apache airflow"]
+    - name: Jupyter
+      aliases: [jupyter, "jupyter notebook", jupyterlab]
+    - name: Looker
+      aliases: [looker]
+    - name: SAS
+      aliases: ["\\bsas\\b"]
+    - name: SPSS
+      aliases: ["\\bspss\\b"]
+
+  frameworks_libraries:
+    - name: React
+      aliases: [react, "react.js", reactjs]
+    - name: PyTorch
+      aliases: [pytorch]
+    - name: TensorFlow
+      aliases: [tensorflow]
+    - name: scikit-learn
+      aliases: ["scikit-learn", "\\bsklearn\\b", "scikit learn"]
+    - name: FastAPI
+      aliases: [fastapi, "fast api"]
+    - name: Django
+      aliases: [django]
+    - name: Flask
+      aliases: [flask]
+    - name: Spring
+      aliases: ["\\bspring\\b", "spring boot"]
+    - name: Angular
+      aliases: [angular]
+    - name: Vue
+      aliases: ["\\bvue\\b", "vue.js", vuejs]
+    - name: Hugging Face
+      aliases: ["hugging face", huggingface, transformers]
+
+  databases:
+    - name: PostgreSQL
+      aliases: [postgresql, postgres]
+    - name: MySQL
+      aliases: [mysql]
+    - name: MongoDB
+      aliases: [mongodb, mongo]
+    - name: Redis
+      aliases: [redis]
+    - name: Elasticsearch
+      aliases: [elasticsearch, "elastic search"]
+    - name: Snowflake
+      aliases: [snowflake]
+    - name: BigQuery
+      aliases: [bigquery, "big query"]
+
+  cloud_devops:
+    - name: AWS
+      aliases: ["\\baws\\b", "amazon web services"]
+    - name: Azure
+      aliases: ["\\bazure\\b", "microsoft azure"]
+    - name: GCP
+      aliases: ["\\bgcp\\b", "google cloud", "google cloud platform"]
+    - name: Docker
+      aliases: [docker]
+    - name: Kubernetes
+      aliases: [kubernetes, "\\bk8s\\b"]
+    - name: Git
+      aliases: ["\\bgit\\b", "version control", "versionsstyring"]
+    - name: CI/CD
+      aliases: ["ci/cd", "\\bcicd\\b", "continuous integration", "continuous deployment", "continuous delivery"]
+    - name: Linux
+      aliases: [linux, "\\bunix\\b"]
+    - name: Terraform
+      aliases: [terraform]
+
+  methods:
+    - name: Machine Learning
+      aliases: ["machine learning", "maskinlæring", "\\bml\\b"]
+    - name: Deep Learning
+      aliases: ["deep learning", "neural network", "neural networks", "neurale netværk"]
+    - name: NLP
+      aliases: ["\\bnlp\\b", "natural language processing", "text mining", "sprogmodeller"]
+    - name: Computer Vision
+      aliases: ["computer vision", "image recognition", "image processing", "billedgenkendelse"]
+    - name: Data Analysis
+      aliases: ["data analysis", "data analytics", "dataanalyse", "data analyst"]
+    - name: Statistics
+      aliases: [statistics, "statistical analysis", "statistical modelling", "statistik", "sandsynlighedsregning"]
+    - name: Agile
+      aliases: [agile, scrum, kanban, "\\bsprint\\b"]
+    - name: DevOps
+      aliases: [devops, "dev ops"]
+    - name: Data Visualization
+      aliases: ["data visualization", "datavisualisering", "data visualisation"]
+    - name: A/B Testing
+      aliases: ["a/b testing", "a/b test", "split testing"]
+    - name: Optimization
+      aliases: [optimization, optimering, "operations research", "linear programming"]
+
+  soft_skills:
+    - name: Communication
+      aliases: [communication, kommunikation, "formidling", "skriftlig kommunikation", "mundtlig kommunikation"]
+    - name: Teamwork
+      aliases: [teamwork, "team player", collaboration, samarbejde, "tværfagligt samarbejde"]
+    - name: Problem Solving
+      aliases: ["problem solving", problemløsning, "analytical thinking", analytisk]
+    - name: Project Management
+      aliases: ["project management", projektledelse, "project coordination"]
+    - name: Presentation
+      aliases: [presentation, præsentation, "præsentere"]
+    - name: Initiative
+      aliases: [initiative, selvstændig, selvstændighed, "proaktiv"]
+    - name: Attention to Detail
+      aliases: ["attention to detail", omhyggelighed, grundighed]
+
+  domain_knowledge:
+    - name: Finance
+      aliases: [finance, fintech, "financial modeling", regnskab, økonomi, "corporate finance", "investment banking"]
+    - name: Healthcare
+      aliases: [healthcare, "health tech", medtech, medical, sundhed, "life science"]
+    - name: Sustainability
+      aliases: [sustainability, bæredygtighed, "\\besg\\b", "green tech", "green transition", "grøn omstilling"]
+    - name: Supply Chain
+      aliases: ["supply chain", logistics, logistik, "værdikæde"]
+    - name: Marketing
+      aliases: ["\\bmarketing\\b", "digital marketing", "\\bseo\\b", "\\bsem\\b", markedsføring]
+    - name: Consulting
+      aliases: [consulting, rådgivning, konsulent]
+    - name: Energy
+      aliases: [energy, energi, "renewable energy", "vedvarende energi", "wind energy", "vindenergi"]
+    - name: Software Development
+      aliases: ["software development", softwareudvikling, "software engineering", "full stack", "fullstack", "backend", "frontend"]

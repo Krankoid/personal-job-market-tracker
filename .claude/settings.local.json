@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:studerendeonline.dk)",
+      "WebFetch(domain:dtu.jobteaser.com)",
+      "Bash(curl -s -I https://studerendeonline.dk/studiejob/)",
+      "Bash(curl -s -I https://dtu.jobteaser.com/en/job-offers)",
+      "Bash(curl -s https://studerendeonline.dk/studiejob/)",
+      "Bash(curl -s -L https://studerendeonline.dk/)",
+      "Bash(curl -s -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/91.0.4472.124 Safari/537.36\" \"https://dtu.jobteaser.com/en/job-offers?contract=part_time\")"
+    ]
+  }
+}
